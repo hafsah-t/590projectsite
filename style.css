@@ -1,24 +1,68 @@
+body {
+    font-family: monospace;
+    background-image: url("images/w7.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.active {
+    background-color: rgb(129, 8, 228);
+  }
+h1 {
+    text-align: center;
+    color: aliceblue;
+}
+
+h2 {
+    padding-left: .5cm;
+    text-align: center;
+}
+
+h3 {
+    padding-left: .5cm;
+    font-size: larger;
+}
+p {
+    padding-left: .5cm;
+    font-size: larger;
+}
+.contact {
+    padding-left: 1cm;
+    font-size: larger;
+}
+
 ul {
+    font-size: larger;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
-}
+    text-align: center;
+  }
   
-li {
+  li {
     float: left;
-}
+  }
   
-li a {
+  li a {
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-}
+  }
   
   /* Change the link color to #111 (black) on hover */
-li a:hover {
-    background-color: #111;
-}
+  li a:hover {
+    background-color: rgb(129, 8, 228);
+  }
+
+  .contentblock {
+    margin-top: 1cm;
+    border-style: groove;
+    color: rgb(255, 255, 255);
+    background-color: rgb(2, 1, 1);
+  }
+
+  
