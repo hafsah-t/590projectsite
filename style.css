@@ -15,16 +15,17 @@ h1 {
 }
 
 h2 {
-    padding-left: .5cm;
+    padding: .1cm;
     text-align: center;
 }
 
 h3 {
     padding-left: .5cm;
+    padding-right: .5cm;
     font-size: larger;
 }
 p {
-    padding-left: .5cm;
+    padding: .2cm;
     font-size: larger;
 }
 .contact {
