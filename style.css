@@ -19,6 +19,10 @@ h2 {
     text-align: center;
 }
 
+#int_name {
+  text-align: center;
+}
+
 h3 {
     padding-left: .5cm;
     padding-right: .5cm;
