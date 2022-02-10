@@ -70,4 +70,16 @@ ul {
     background-color: rgb(2, 1, 1);
   }
 
+  #em {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+  }
+  #persona_pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   
+  }
