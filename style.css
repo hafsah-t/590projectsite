@@ -83,3 +83,11 @@ ul {
     margin-right: auto;
   
   }
+  #task_pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+    width: auto\9; 
+  }
