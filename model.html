@@ -19,10 +19,12 @@
         <li><a class="active" href="model.html">Model</a></li>
         <li><a href="storyboards.html">Storyboard</a></li>
         <li><a href="testing.html">Testing</a></li>
+        <li><a href="Low-Res.html">Low-Res</a></li>
+        <li><a href="High-Res.html">High-Res</a></li>
     </ul>
     <div class="contentblock">
         <h2>Conceptual Model</h2>
-        <img id="content_pic" src="images/conceptual_model/concept_model.png" alt="conceputal model"> 
+        <img id="content_pic" src="images/conceptual_model/model.png" alt="conceputal model"> 
         <br>
         <p>
             Notes: <br><br>
@@ -34,7 +36,7 @@
             Our conceptual model includes 3 total relationships: <br><br>
             - The first relationship is between the User and the Track entities. This is a one to many relationship, meaning that a User can choose many Tracks. Both entities have partial participation in this relationship - a User does not have to choose a Track and a Track does not have to be chosen by a User to exist. <br><br>
             - The second relationship is between the User and Tutorial entities. This is a one to many relationship, meaning that a User can complete many Tutorials. Both entities have partial participation in this relationship - a User does not have to complete a Tutorial and a Tutorial does not have to be completed by a User to exist. <br><br>
-            - The third relationship is between the Track and Tutorial entities. This is a one to many relationship, meaning that a Track can include many Tutorials, but a Tutorial will be included in only one Track. The Tutorial entity has partial participation in this relationship - it does not have to be included within a Track to exist. The Track entity has total participation in this relationship - a Track has to include a Tutorial in order to exist. <br><br>
+            - The third relationship is between the Track and Tutorial entities. This is a many to many relationship, meaning that a Track can include many Tutorials, and a Tutorial may be included in more than one Track. The Tutorial entity has partial participation in this relationship - it does not have to be included within a Track to exist. The Track entity has total participation in this relationship - a Track has to include a Tutorial in order to exist. <br><br>
 
         </p>
     </div>
